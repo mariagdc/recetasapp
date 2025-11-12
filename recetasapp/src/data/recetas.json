@@ -1,0 +1,171 @@
+[
+  {
+    "id": 1,
+    "titulo": "Pasta Carbonara",
+    "descripcion": "Receta clásica italiana de pasta con salsa cremosa de huevo y panceta",
+    "imagen": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=400",
+    "tiempoPreparacion": "30 minutos",
+    "dificultad": "Media",
+    "porciones": 4,
+    "categoria": "Platos Principales",
+    "ingredientes": [
+      { "cantidad": "400", "unidad": "g", "nombre": "Spaghetti" },
+      { "cantidad": "200", "unidad": "g", "nombre": "Panceta o tocino" },
+      { "cantidad": "4", "unidad": "unidades", "nombre": "Huevos" },
+      { "cantidad": "100", "unidad": "g", "nombre": "Queso parmesano rallado" },
+      { "cantidad": "1", "unidad": "pizca", "nombre": "Pimienta negra" },
+      { "cantidad": "1", "unidad": "pizca", "nombre": "Sal" }
+    ],
+    "pasos": [
+      "Cocinar la pasta en agua hirviendo con sal hasta que esté al dente",
+      "Mientras tanto, cortar la panceta en cubos pequeños y dorarla en una sartén",
+      "Batir los huevos con el queso parmesano rallado y pimienta",
+      "Escurrir la pasta reservando un poco del agua de cocción",
+      "Mezclar la pasta caliente con la panceta fuera del fuego",
+      "Agregar la mezcla de huevo y queso, mezclando rápidamente",
+      "Si es necesario, agregar un poco del agua de cocción para crear una salsa cremosa",
+      "Servir inmediatamente con más queso parmesano y pimienta"
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Ensalada César",
+    "descripcion": "Ensalada fresca con lechuga romana, crutones caseros y aderezo césar",
+    "imagen": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=400",
+    "tiempoPreparacion": "20 minutos",
+    "dificultad": "Fácil",
+    "porciones": 2,
+    "categoria": "Ensaladas",
+    "ingredientes": [
+      { "cantidad": "1", "unidad": "unidad", "nombre": "Lechuga romana grande" },
+      { "cantidad": "100", "unidad": "g", "nombre": "Pechuga de pollo" },
+      { "cantidad": "50", "unidad": "g", "nombre": "Queso parmesano" },
+      { "cantidad": "2", "unidad": "tazas", "nombre": "Crutones" },
+      { "cantidad": "4", "unidad": "cucharadas", "nombre": "Aderezo césar" }
+    ],
+    "pasos": [
+      "Lavar y secar la lechuga romana",
+      "Cortar la lechuga en trozos medianos",
+      "Cocinar la pechuga de pollo a la plancha y cortarla en tiras",
+      "En un bowl grande, mezclar la lechuga con el aderezo",
+      "Agregar el pollo, crutones y queso parmesano",
+      "Mezclar bien y servir inmediatamente"
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Pizza Margherita",
+    "descripcion": "La clásica pizza italiana con tomate, mozzarella y albahaca fresca",
+    "imagen": "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=400",
+    "tiempoPreparacion": "45 minutos",
+    "dificultad": "Media",
+    "porciones": 4,
+    "categoria": "Platos Principales",
+    "ingredientes": [
+      { "cantidad": "500", "unidad": "g", "nombre": "Harina" },
+      { "cantidad": "300", "unidad": "ml", "nombre": "Agua tibia" },
+      { "cantidad": "10", "unidad": "g", "nombre": "Levadura" },
+      { "cantidad": "400", "unidad": "g", "nombre": "Tomates triturados" },
+      { "cantidad": "250", "unidad": "g", "nombre": "Mozzarella fresca" },
+      { "cantidad": "15", "unidad": "hojas", "nombre": "Albahaca fresca" },
+      { "cantidad": "3", "unidad": "cucharadas", "nombre": "Aceite de oliva" }
+    ],
+    "pasos": [
+      "Mezclar la harina, agua y levadura para formar la masa",
+      "Dejar reposar la masa 1 hora hasta que doble su tamaño",
+      "Amasar nuevamente y formar un disco",
+      "Preparar la salsa de tomate con tomates triturados",
+      "Extender la masa en la bandeja y agregar la salsa",
+      "Distribuir la mozzarella sobre la pizza",
+      "Hornear a 250°C durante 20-25 minutos",
+      "Retirar del horno, agregar albahaca fresca y aceite de oliva"
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Salmón a la Mantequilla",
+    "descripcion": "Filete de salmón jugoso cocido en mantequilla con hierbas aromáticas",
+    "imagen": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400",
+    "tiempoPreparacion": "25 minutos",
+    "dificultad": "Media",
+    "porciones": 2,
+    "categoria": "Platos Principales",
+    "ingredientes": [
+      { "cantidad": "2", "unidad": "unidades", "nombre": "Filetes de salmón" },
+      { "cantidad": "100", "unidad": "g", "nombre": "Mantequilla" },
+      { "cantidad": "3", "unidad": "dientes", "nombre": "Ajo" },
+      { "cantidad": "10", "unidad": "hojas", "nombre": "Tomillo fresco" },
+      { "cantidad": "10", "unidad": "hojas", "nombre": "Perejil" },
+      { "cantidad": "1", "unidad": "limón", "nombre": "Limón" },
+      { "cantidad": "1", "unidad": "pizca", "nombre": "Sal" }
+    ],
+    "pasos": [
+      "Precalentar el horno a 200°C",
+      "Derretir mantequilla en una sartén a fuego medio",
+      "Agregar los dientes de ajo picados y las hierbas",
+      "Colocar los filetes de salmón en la sartén",
+      "Cocinar 3-4 minutos de cada lado",
+      "Transferir a una bandeja de horno",
+      "Hornear 8-10 minutos hasta que esté cocido",
+      "Servir con jugo de limón fresco y hierbas"
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "Brownies de Chocolate",
+    "descripcion": "Deliciosos brownies caseros con chocolate oscuro y nueces",
+    "imagen": "https://images.unsplash.com/photo-1617996884841-3949eaec3448?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1073",
+    "tiempoPreparacion": "50 minutos",
+    "dificultad": "Fácil",
+    "porciones": 12,
+    "categoria": "Postres",
+    "ingredientes": [
+      { "cantidad": "200", "unidad": "g", "nombre": "Chocolate oscuro" },
+      { "cantidad": "150", "unidad": "g", "nombre": "Mantequilla" },
+      { "cantidad": "200", "unidad": "g", "nombre": "Azúcar" },
+      { "cantidad": "3", "unidad": "unidades", "nombre": "Huevos" },
+      { "cantidad": "100", "unidad": "g", "nombre": "Harina" },
+      { "cantidad": "50", "unidad": "g", "nombre": "Nueces picadas" },
+      { "cantidad": "5", "unidad": "g", "nombre": "Polvo de hornear" }
+    ],
+    "pasos": [
+      "Derretir el chocolate con la mantequilla",
+      "En otro recipiente, batir los huevos con el azúcar",
+      "Mezclar el chocolate derretido con los huevos",
+      "Incorporar la harina y polvo de hornear",
+      "Agregar las nueces picadas",
+      "Verter en una bandeja engrasada",
+      "Hornear a 180°C durante 30-35 minutos",
+      "Dejar enfriar y cortar en porciones"
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Paella Española",
+    "descripcion": "Arroz español con azafrán, mariscos y vegetales frescos",
+    "imagen": "https://images.unsplash.com/photo-1602755088318-39b7a7e6482a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1332",
+    "tiempoPreparacion": "60 minutos",
+    "dificultad": "Difícil",
+    "porciones": 6,
+    "categoria": "Platos Principales",
+    "ingredientes": [
+      { "cantidad": "400", "unidad": "g", "nombre": "Arroz bomba" },
+      { "cantidad": "1", "unidad": "litro", "nombre": "Caldo de pollo" },
+      { "cantidad": "1", "unidad": "pizca", "nombre": "Azafrán" },
+      { "cantidad": "200", "unidad": "g", "nombre": "Camarones" },
+      { "cantidad": "200", "unidad": "g", "nombre": "Mejillones" },
+      { "cantidad": "100", "unidad": "g", "nombre": "Guisantes" },
+      { "cantidad": "1", "unidad": "unidad", "nombre": "Pimentón rojo" }
+    ],
+    "pasos": [
+      "Calentar el caldo y disolverlo con azafrán",
+      "Preparar los mariscos limpiándolos bien",
+      "En una paellera, calentar aceite y sofreír cebollas y ajo",
+      "Agregar el arroz y remover 1-2 minutos",
+      "Verter el caldo caliente gradualmente",
+      "Dejar cocinar sin remover durante 20 minutos",
+      "Agregar los mariscos y guisantes",
+      "Cocinar 10 minutos más hasta que todo esté listo"
+    ]
+  }
+]
