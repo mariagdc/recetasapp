@@ -223,9 +223,9 @@ Este proyecto está bajo la licencia MIT. Ver archivo `LICENSE` para más detall
 
 ## 👤 Autor
 
-**Desarrollador:** [María Virginia Stockli]  
-**Email:** [virstockl@gmail.com]  
-**GitHub:** [VirStockli]
+**Desarrollador:** [María Florencia Godoy Del Castillo]  
+**Email:** [mariagodoydelcastillo@gmail.com]  
+**GitHub:** [mariagdc]
 
 ## 🤝 Contribuciones
 
