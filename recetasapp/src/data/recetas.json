@@ -81,35 +81,39 @@
       "Retirar del horno, agregar albahaca fresca y aceite de oliva"
     ]
   },
-  {
-    "id": 4,
-    "titulo": "Salmón a la Mantequilla",
-    "descripcion": "Filete de salmón jugoso cocido en mantequilla con hierbas aromáticas",
-    "imagen": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400",
-    "tiempoPreparacion": "25 minutos",
-    "dificultad": "Media",
-    "porciones": 2,
-    "categoria": "Platos Principales",
-    "ingredientes": [
-      { "cantidad": "2", "unidad": "unidades", "nombre": "Filetes de salmón" },
-      { "cantidad": "100", "unidad": "g", "nombre": "Mantequilla" },
-      { "cantidad": "3", "unidad": "dientes", "nombre": "Ajo" },
-      { "cantidad": "10", "unidad": "hojas", "nombre": "Tomillo fresco" },
-      { "cantidad": "10", "unidad": "hojas", "nombre": "Perejil" },
-      { "cantidad": "1", "unidad": "limón", "nombre": "Limón" },
-      { "cantidad": "1", "unidad": "pizca", "nombre": "Sal" }
-    ],
-    "pasos": [
-      "Precalentar el horno a 200°C",
-      "Derretir mantequilla en una sartén a fuego medio",
-      "Agregar los dientes de ajo picados y las hierbas",
-      "Colocar los filetes de salmón en la sartén",
-      "Cocinar 3-4 minutos de cada lado",
-      "Transferir a una bandeja de horno",
-      "Hornear 8-10 minutos hasta que esté cocido",
-      "Servir con jugo de limón fresco y hierbas"
-    ]
-  },
+ {
+  "id": 4,
+  "titulo": "Canelones de Verdura (Espinaca y Ricota)",
+  "descripcion": "Pasta enrollada rellena de una mezcla cremosa de espinaca y queso ricota, cubierta con salsa bechamel y gratinada al horno.",
+  "imagen": "",
+  "tiempoPreparacion": "70 minutos",
+  "dificultad": "Media",
+  "porciones": 6,
+  "categoria": "Platos Principales",
+  "ingredientes": [
+    { "cantidad": "18", "unidad": "unidades", "nombre": "Masa para canelones (panqueques)" },
+    { "cantidad": "500", "unidad": "g", "nombre": "Ricota fresca" },
+    { "cantidad": "500", "unidad": "g", "nombre": "Espinaca (fresca o congelada)" },
+    { "cantidad": "1", "unidad": "unidad", "nombre": "Cebolla pequeña" },
+    { "cantidad": "1", "unidad": "diente", "nombre": "Ajo" },
+    { "cantidad": "50", "unidad": "g", "nombre": "Queso parmesano rallado (para relleno)" },
+    { "cantidad": "1", "unidad": "pizca", "nombre": "Nuez moscada" },
+    { "cantidad": "500", "unidad": "ml", "nombre": "Salsa Bechamel" },
+    { "cantidad": "50", "unidad": "g", "nombre": "Queso mozzarella o parmesano (para gratinar)" }
+  ],
+  "pasos": [
+    "Si no tiene, preparar la masa de panqueques/crepes para los canelones y reservar.",
+    "Lavar y cocinar la espinaca. Escurrir muy bien, apretando para quitar el exceso de agua. Picar finamente.",
+    "Picar la cebolla y el ajo. Rehogar en una sartén con un poco de aceite hasta que estén transparentes.",
+    "En un bol, mezclar la ricota, la espinaca picada, la cebolla y el ajo rehogados.",
+    "Agregar el queso parmesano rallado (para el relleno), nuez moscada, sal y pimienta. Mezclar hasta obtener un relleno homogéneo.",
+    "Colocar una porción del relleno en cada panqueque y enrollar firmemente para formar los canelones.",
+    "Cubrir el fondo de una fuente para horno con una capa fina de salsa bechamel.",
+    "Disponer los canelones en la fuente, uno al lado del otro.",
+    "Cubrir generosamente con el resto de la salsa bechamel.",
+    "Espolvorear con queso mozzarella o parmesano para gratinar y hornear a 180°C (350°F) por 20-25 minutos, o hasta que estén dorados y burbujeantes."
+  ]
+},
   {
   "id": 5,
   "titulo": "Pastelitos Criollos Fritos",
