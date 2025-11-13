@@ -34,6 +34,7 @@ function App() {
 
 export default <App></App>*/
 import HomePage from './pages/HomePage';
+import NotFoundPage from './pages/NotFoundPage.jsx';
 import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
@@ -96,6 +97,10 @@ function App() {
             <Route 
               path="/recetas/:id" 
               element={<RecetaDetallePage darkMode={darkMode} />} 
+            />
+            <Route 
+              path="*" 
+              element={<NotFoundPage darkMode={darkMode} />} 
             />
           </Routes>
           <Footer darkMode={darkMode} />

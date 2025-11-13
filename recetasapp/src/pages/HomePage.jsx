@@ -19,7 +19,7 @@ function HomePage({ darkMode }) {
               variant="h5" 
               sx={{ color: 'text.secondary', mb: 3 }}
             >
-              Descubre las mejores recetas de cocina hechas con amor
+              Las mejores recetas de cocina regional
             </Typography>
             <Typography 
               variant="body1" 
@@ -39,7 +39,7 @@ function HomePage({ darkMode }) {
                 px: 4
               }}
             >
-              Ver Todas las Recetas
+              Ver Listado
             </Button>
           </Box>
         </Grid>
@@ -53,7 +53,7 @@ function HomePage({ darkMode }) {
           >
             <Box
               component="img"
-              src="https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=500"
+              src="https://images.unsplash.com/photo-1627907228175-2bf846a303b4?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Comida deliciosa"
               sx={{ width: '100%', borderRadius: 2 }}
             />

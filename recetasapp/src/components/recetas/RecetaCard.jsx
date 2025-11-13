@@ -41,7 +41,8 @@ function RecetaCard({ receta, darkMode }) {
         alt={receta.titulo}
         sx={{ objectFit: 'cover' }}
       />
-      <CardContent sx={{ flexGrow: 1 }}>
+      <CardContent sx={{ flexGrow: 1, display: 'flex', // 👈 ¡NUEVO! Hace que CardContent sea un contenedor Flex
+    flexDirection: 'column', }}>
         <Typography 
           variant="h5" 
           gutterBottom 
@@ -51,7 +52,7 @@ function RecetaCard({ receta, darkMode }) {
         </Typography>
         <Typography 
           variant="body2" 
-          sx={{ color: 'text.secondary', mb: 2 }}
+          sx={{ color: 'text.secondary', mb: 2 , flexGrow: 1}}
         >
           {receta.descripcion}
         </Typography>

@@ -11,7 +11,7 @@ function NotFoundPage() {
         404
       </Typography>
       <Typography variant="h4" sx={{ color: 'primary.main', mb: 2 }}>
-        😕 Página no encontrada
+        🧐🍽 Página no encontrada
       </Typography>
       <Typography variant="body1" sx={{ mb: 4, color: 'text.secondary' }}>
         Lo sentimos, la receta que buscas no existe o fue eliminada.
