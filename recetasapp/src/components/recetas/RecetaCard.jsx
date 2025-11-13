@@ -42,17 +42,24 @@ function RecetaCard({ receta, darkMode }) {
         sx={{ objectFit: 'cover' }}
       />
       <CardContent sx={{ flexGrow: 1, display: 'flex', // 👈 ¡NUEVO! Hace que CardContent sea un contenedor Flex
-    flexDirection: 'column', }}>
+    flexDirection: 'column', minHeight: '200px', }}>
         <Typography 
           variant="h5" 
           gutterBottom 
-          sx={{ color: 'primary.main', fontWeight: 700 }}
+          sx={{ color: 'primary.main', fontWeight: 700, display: '-webkit-box',
+            WebkitLineClamp: 2,
+            WebkitBoxOrient: 'vertical',
+            overflow: 'hidden' }}
         >
           {receta.titulo}
         </Typography>
         <Typography 
           variant="body2" 
-          sx={{ color: 'text.secondary', mb: 2 , flexGrow: 1}}
+          sx={{ color: 'text.secondary', mb: 2 , flexGrow: 1, // 👇 Limita la descripción a 3-4 líneas
+            display: '-webkit-box',
+            WebkitLineClamp: 3,
+            WebkitBoxOrient: 'vertical',
+            overflow: 'hidden'}}
         >
           {receta.descripcion}
         </Typography>
@@ -76,7 +83,7 @@ function RecetaCard({ receta, darkMode }) {
           variant="outlined"
         />
       </CardContent>
-      <CardActions>
+      <CardActions sx={{ mt: 'auto' }}>
         <Button
           fullWidth
           variant="contained"
