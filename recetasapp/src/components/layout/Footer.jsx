@@ -26,7 +26,7 @@ function Footer({ darkMode }) {
             </Typography>
             <Typography variant="body2">
               <Phone sx={{ mr: 1, verticalAlign: 'middle', fontSize: 18 }} />
-              +54 376 4074121
+              +54 376 5074121
             </Typography>
           </Stack>
           <Typography variant="body2" sx={{ color: 'text.secondary' }}>
