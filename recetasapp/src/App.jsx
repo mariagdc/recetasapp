@@ -50,15 +50,41 @@ function App() {
   const theme = createTheme({
     palette: {
       mode: darkMode ? 'dark' : 'light',
-      primary: { main: darkMode ? '#a78bfa' : '#d8b4fe' },
-      secondary: { main: darkMode ? '#86efac' : '#bbf7d0' },
-      background: {
-        default: darkMode ? '#1a1a2e' : '#fef3f2',
-        paper: darkMode ? '#16213e' : '#fef8f6'
+     primary: { 
+          // Verde de Palmera (Color principal de la marca)
+        main: darkMode ? '#66BB6A' : '#388E3C' // Verde más suave / Verde más intenso
       },
-      success: { main: darkMode ? '#86efac' : '#86c5a8' },
-      warning: { main: darkMode ? '#fbbf24' : '#f4a261' },
-      error: { main: darkMode ? '#ff9999' : '#e76f51' }
+      secondary: { 
+          // Arena / Tostado (Acento)
+        main: darkMode ? '#FFCC80' : '#FFB74D' // Naranja claro / Naranja medio
+      },
+      
+      background: {
+          // Fondo de la página (crema claro / verde oscuro)
+        default: darkMode ? '#1E3F27' : '#F8F0E3', 
+          // Fondo de tarjetas (tono más oscuro / tono de papel limpio)
+        paper: darkMode ? '#2E5D3F' : '#FFFFFF' 
+      },
+
+      // El texto se ajustará automáticamente, pero podemos forzar un contraste fuerte:
+      text: {
+          primary: darkMode ? '#FFFFFF' : '#333333',
+          secondary: darkMode ? '#CCCCCC' : '#555555',
+      },
+      
+      // Colores de Estado (Ajustados al nuevo esquema)
+      success: { 
+          // Fácil (Verde suave)
+        main: darkMode ? '#A5D6A7' : '#4CAF50' 
+      },
+      warning: { 
+          // Media (Amarillo/Ocre)
+        main: darkMode ? '#FFD54F' : '#FF9800' 
+      },
+      error: { 
+          // Difícil (Rojo ladrillo)
+        main: darkMode ? '#E57373' : '#D32F2F' 
+      }
     },
     typography: {
       fontFamily: '"Segoe UI", "Roboto", "Oxygen"',

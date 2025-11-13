@@ -21,7 +21,7 @@ function RecetaDetalle({ receta, darkMode }) {
     <>
       <Button 
         startIcon={<ArrowBack />} 
-        onClick={() => navigate('/')} 
+        onClick={() => navigate('/recetas')} 
         sx={{ mb: 3, color: 'primary.main' }}
       >
         Volver al Listado

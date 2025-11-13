@@ -9,7 +9,7 @@ function RecetasList({ recetas, darkMode }) {
           variant="h3" 
           sx={{ color: 'primary.main', fontWeight: 700, mb: 1 }}
         >
-          🍳 Nuestras Recetas
+           ¿Qué comemos hoy?
         </Typography>
         <Typography variant="body1" sx={{ color: 'text.secondary' }}>
           Descubre deliciosas recetas para preparar en casa

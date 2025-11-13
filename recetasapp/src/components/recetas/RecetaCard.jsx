@@ -81,10 +81,20 @@ function RecetaCard({ receta, darkMode }) {
           fullWidth
           variant="contained"
           onClick={() => navigate(`/recetas/${receta.id}`)}
-          sx={{
-            background: 'linear-gradient(135deg, #d8b4fe 0%, #86efac 100%)',
-            color: '#333'
-          }}
+         sx={(theme) => ({ // 👈 IMPORTANTE: Usamos la función de tema
+      // Configuramos el degradado usando los colores del tema
+      background: `linear-gradient(135deg, ${theme.palette.primary.main} 0%, ${theme.palette.secondary.main} 100%)`,
+      
+      // Aseguramos que el texto tenga buen contraste
+      color: darkMode ? '#1A1A2E' : '#333', 
+      
+      // También puedes añadir un efecto al pasar el mouse para el degradado
+      '&:hover': {
+          opacity: 0.7,
+          // Removemos el fondo por defecto del botón para que el degradado persista
+          background: `linear-gradient(135deg, ${theme.palette.primary.main} 0%, ${theme.palette.secondary.main} 100%)`,
+      },
+    })}
         >
           Ver Receta
         </Button>

@@ -9,35 +9,46 @@ function HomePage({ darkMode }) {
       <Grid container spacing={4} alignItems="center">
         <Grid item xs={12} md={6}>
           <Box>
-            <Typography 
-              variant="h2" 
+            <Typography
+              variant="h2"
               sx={{ color: 'primary.main', fontWeight: 700, mb: 2 }}
             >
               🧉Regional Recetas
             </Typography>
-            <Typography 
-              variant="h5" 
+            <Typography
+              variant="h5"
               sx={{ color: 'text.secondary', mb: 3 }}
             >
               Las mejores recetas de cocina regional
             </Typography>
-            <Typography 
-              variant="body1" 
+            <Typography
+              variant="body1"
               sx={{ mb: 4, fontSize: '1.1rem' }}
             >
-              Explora nuestro catálogo de recetas deliciosas, fáciles de seguir 
-              y perfectas para cualquier ocasión. Desde platos principales hasta 
+              Explora nuestro catálogo de recetas deliciosas, fáciles de seguir
+              y perfectas para cualquier ocasión. Desde platos principales hasta
               postres exquisitos.
             </Typography>
-            <Button 
-              variant="contained" 
+            <Button
+              variant="contained"
               size="large"
               onClick={() => navigate('/recetas')}
-              sx={{
-                background: 'linear-gradient(135deg, #d8b4fe 0%, #86efac 100%)',
-                color: '#333',
-                px: 4
-              }}
+              sx={(theme) => ({
+                // Usa los colores 'primary' y 'secondary' del tema
+                background: `linear-gradient(135deg, ${theme.palette.primary.main} 0%, ${theme.palette.secondary.main} 100%)`,
+
+                // Asegura buen contraste para el texto
+                color: theme.palette.mode === 'dark' ? '#1E3F27' : '#333',
+
+                px: 4,
+
+                // Opcional: Mantener el degradado en el hover
+                '&:hover': {
+                  opacity: 0.9,
+                  // Re-aplica el degradado para que el color de hover por defecto de MUI no lo reemplace
+                  background: `linear-gradient(135deg, ${theme.palette.primary.main} 0%, ${theme.palette.secondary.main} 100%)`,
+                },
+              })}
             >
               Ver Listado
             </Button>
