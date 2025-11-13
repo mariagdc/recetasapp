@@ -17,20 +17,20 @@ function Footer({ darkMode }) {
       <Container maxWidth="lg">
         <Stack spacing={2} sx={{ textAlign: 'center' }}>
           <Typography variant="h6">
-            🍽️ Mis Recetas
+            🧉 Recetas
           </Typography>
           <Stack direction="row" spacing={2} justifyContent="center">
             <Typography variant="body2">
               <Email sx={{ mr: 1, verticalAlign: 'middle', fontSize: 18 }} />
-              misrecetas@recetasapp.com
+              regionalesrecetas@gmail.com
             </Typography>
             <Typography variant="body2">
               <Phone sx={{ mr: 1, verticalAlign: 'middle', fontSize: 18 }} />
-              +34 123 456 789
+              +54 376 4074121
             </Typography>
           </Stack>
           <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-            © {currentYear} MisRecetas. Todos los derechos reservados.
+            © {currentYear} RegionalesRecetas 
           </Typography>
         </Stack>
       </Container>

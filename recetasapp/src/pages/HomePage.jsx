@@ -13,7 +13,7 @@ function HomePage({ darkMode }) {
               variant="h2" 
               sx={{ color: 'primary.main', fontWeight: 700, mb: 2 }}
             >
-              🍽️ Mis Recetas
+              🧉Regional Recetas
             </Typography>
             <Typography 
               variant="h5" 

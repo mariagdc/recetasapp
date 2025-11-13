@@ -38,6 +38,7 @@ import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 import Navbar from './components/layout/Navbar.jsx';
+import Footer from './components/layout/Footer.jsx';
 import RecetasListPage from './pages/RecetasListPage';
 import RecetaDetallePage from './pages/RecetaDetallePage';
 import { RecetasProvider } from './contexts/RecetasContext';
@@ -97,6 +98,7 @@ function App() {
               element={<RecetaDetallePage darkMode={darkMode} />} 
             />
           </Routes>
+          <Footer darkMode={darkMode} />
         </Router>
       </RecetasProvider>
     </ThemeProvider>
