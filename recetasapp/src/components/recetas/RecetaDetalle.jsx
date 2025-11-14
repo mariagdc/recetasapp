@@ -4,32 +4,44 @@ import {
 import { AccessTime, People, ArrowBack } from '@mui/icons-material';
 import { useNavigate } from 'react-router-dom';
 import IngredientesList from './IngredientesList';
-
+import { Rating } from '@mui/material';
+import { useState } from 'react';
+import Comentarios from "./RecetaComentario"; // 
 function RecetaDetalle({ receta, darkMode }) {
   const navigate = useNavigate();
 
   const getDifficultyColor = (dificultad) => {
-    switch(dificultad) {
+    switch (dificultad) {
       case 'Fácil': return 'success';
       case 'Media': return 'warning';
       case 'Difícil': return 'error';
       default: return 'default';
     }
   };
+  const [rating, setRating] = useState(receta.ratingPromedio || 0);
 
+  const handleRating = async (value) => {
+    setRating(value);
+
+    await fetch(`http://localhost:3000/api/recetas/${receta.id}/rating`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ rating: value })
+    });
+  };
   return (
     <>
-      <Button 
-        startIcon={<ArrowBack />} 
-        onClick={() => navigate('/recetas')} 
+      <Button
+        startIcon={<ArrowBack />}
+        onClick={() => navigate('/recetas')}
         sx={{ mb: 3, color: 'primary.main' }}
       >
         Volver al Listado
       </Button>
 
-      <Paper 
-        sx={{ 
-          overflow: 'hidden', 
+      <Paper
+        sx={{
+          overflow: 'hidden',
           mb: 3,
           backgroundColor: darkMode ? '#0f3460' : '#fff9f7'
         }}
@@ -43,14 +55,21 @@ function RecetaDetalle({ receta, darkMode }) {
       </Paper>
 
       <Box sx={{ mb: 4 }}>
-        <Typography 
-          variant="h3" 
+        <Typography
+          variant="h3"
           sx={{ color: 'primary.main', fontWeight: 700, mb: 2 }}
         >
           {receta.titulo}
         </Typography>
-        <Typography 
-          variant="body1" 
+        <Rating
+          value={rating}
+          precision={0.5}
+          size="large"
+          onChange={(e, newValue) => handleRating(newValue)}
+          sx={{ mb: 2 }}
+        />
+        <Typography
+          variant="body1"
           sx={{ color: 'text.secondary', mb: 3, fontSize: '1.1rem' }}
         >
           {receta.descripcion}
@@ -82,8 +101,8 @@ function RecetaDetalle({ receta, darkMode }) {
       <IngredientesList ingredientes={receta.ingredientes} darkMode={darkMode} />
 
       <Box>
-        <Typography 
-          variant="h5" 
+        <Typography
+          variant="h5"
           sx={{ color: 'primary.main', fontWeight: 700, mb: 2 }}
         >
           👨‍🍳 Preparación
@@ -122,7 +141,18 @@ function RecetaDetalle({ receta, darkMode }) {
           ))}
         </Stack>
       </Box>
+      <Divider sx={{ my: 4 }} />
+
+      <Typography
+        variant="h5"
+        sx={{ color: 'primary.main', fontWeight: 700, mb: 2 }}
+      >
+        💬 Comentarios
+      </Typography>
+
+      <Comentarios idReceta={receta.id} />
     </>
+
   );
 }
 
