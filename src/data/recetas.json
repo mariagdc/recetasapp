@@ -1,0 +1,181 @@
+[
+  {
+    "id": 1,
+    "titulo": "Pasta Carbonara",
+    "descripcion": "Receta clásica italiana de pasta con salsa cremosa de huevo y panceta",
+    "imagen": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=400",
+    "tiempoPreparacion": "30 minutos",
+    "dificultad": "Media",
+    "porciones": 4,
+    "categoria": "Platos Principales",
+    "ingredientes": [
+      { "cantidad": "400", "unidad": "g", "nombre": "Spaghetti" },
+      { "cantidad": "200", "unidad": "g", "nombre": "Panceta o tocino" },
+      { "cantidad": "4", "unidad": "unidades", "nombre": "Huevos" },
+      { "cantidad": "100", "unidad": "g", "nombre": "Queso parmesano rallado" },
+      { "cantidad": "1", "unidad": "pizca", "nombre": "Pimienta negra" },
+      { "cantidad": "1", "unidad": "pizca", "nombre": "Sal" }
+    ],
+    "pasos": [
+      "Cocinar la pasta en agua hirviendo con sal hasta que esté al dente",
+      "Mientras tanto, cortar la panceta en cubos pequeños y dorarla en una sartén",
+      "Batir los huevos con el queso parmesano rallado y pimienta",
+      "Escurrir la pasta reservando un poco del agua de cocción",
+      "Mezclar la pasta caliente con la panceta fuera del fuego",
+      "Agregar la mezcla de huevo y queso, mezclando rápidamente",
+      "Si es necesario, agregar un poco del agua de cocción para crear una salsa cremosa",
+      "Servir inmediatamente con más queso parmesano y pimienta"
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Ensalada César",
+    "descripcion": "Ensalada fresca con lechuga romana, crutones caseros y aderezo césar",
+    "imagen": "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=400",
+    "tiempoPreparacion": "20 minutos",
+    "dificultad": "Fácil",
+    "porciones": 2,
+    "categoria": "Ensaladas",
+    "ingredientes": [
+      { "cantidad": "1", "unidad": "unidad", "nombre": "Lechuga romana grande" },
+      { "cantidad": "100", "unidad": "g", "nombre": "Pechuga de pollo" },
+      { "cantidad": "50", "unidad": "g", "nombre": "Queso parmesano" },
+      { "cantidad": "2", "unidad": "tazas", "nombre": "Crutones" },
+      { "cantidad": "4", "unidad": "cucharadas", "nombre": "Aderezo césar" }
+    ],
+    "pasos": [
+      "Lavar y secar la lechuga romana",
+      "Cortar la lechuga en trozos medianos",
+      "Cocinar la pechuga de pollo a la plancha y cortarla en tiras",
+      "En un bowl grande, mezclar la lechuga con el aderezo",
+      "Agregar el pollo, crutones y queso parmesano",
+      "Mezclar bien y servir inmediatamente"
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Pizza Margherita",
+    "descripcion": "La clásica pizza italiana con tomate, mozzarella y albahaca fresca",
+    "imagen": "https://images.unsplash.com/photo-1604068549290-dea0e4a305ca?w=400",
+    "tiempoPreparacion": "45 minutos",
+    "dificultad": "Media",
+    "porciones": 4,
+    "categoria": "Platos Principales",
+    "ingredientes": [
+      { "cantidad": "500", "unidad": "g", "nombre": "Harina" },
+      { "cantidad": "300", "unidad": "ml", "nombre": "Agua tibia" },
+      { "cantidad": "10", "unidad": "g", "nombre": "Levadura" },
+      { "cantidad": "400", "unidad": "g", "nombre": "Tomates triturados" },
+      { "cantidad": "250", "unidad": "g", "nombre": "Mozzarella fresca" },
+      { "cantidad": "15", "unidad": "hojas", "nombre": "Albahaca fresca" },
+      { "cantidad": "3", "unidad": "cucharadas", "nombre": "Aceite de oliva" }
+    ],
+    "pasos": [
+      "Mezclar la harina, agua y levadura para formar la masa",
+      "Dejar reposar la masa 1 hora hasta que doble su tamaño",
+      "Amasar nuevamente y formar un disco",
+      "Preparar la salsa de tomate con tomates triturados",
+      "Extender la masa en la bandeja y agregar la salsa",
+      "Distribuir la mozzarella sobre la pizza",
+      "Hornear a 250°C durante 20-25 minutos",
+      "Retirar del horno, agregar albahaca fresca y aceite de oliva"
+    ]
+  },
+ {
+  "id": 4,
+  "titulo": "Canelones de Verdura (Espinaca y Ricota)",
+  "descripcion": "Pasta enrollada rellena de una mezcla cremosa de espinaca y queso ricota.",
+  "imagen": "https://media.istockphoto.com/id/1209955762/photo/cannelloni.webp?s=1024x1024&w=is&k=20&c=LKw68WDWiNpGsmmVhf0qt4bsG2meCZ-Y1RS-ZvZdxpA=",
+  "tiempoPreparacion": "70 minutos",
+  "dificultad": "Media",
+  "porciones": 6,
+  "categoria": "Platos Principales",
+  "ingredientes": [
+    { "cantidad": "18", "unidad": "unidades", "nombre": "Masa para canelones (panqueques)" },
+    { "cantidad": "500", "unidad": "g", "nombre": "Ricota fresca" },
+    { "cantidad": "500", "unidad": "g", "nombre": "Espinaca (fresca o congelada)" },
+    { "cantidad": "1", "unidad": "unidad", "nombre": "Cebolla pequeña" },
+    { "cantidad": "1", "unidad": "diente", "nombre": "Ajo" },
+    { "cantidad": "50", "unidad": "g", "nombre": "Queso parmesano rallado (para relleno)" },
+    { "cantidad": "1", "unidad": "pizca", "nombre": "Nuez moscada" },
+    { "cantidad": "500", "unidad": "ml", "nombre": "Salsa Bechamel" },
+    { "cantidad": "50", "unidad": "g", "nombre": "Queso mozzarella o parmesano (para gratinar)" }
+  ],
+  "pasos": [
+    "Si no tiene, preparar la masa de panqueques/crepes para los canelones y reservar.",
+    "Lavar y cocinar la espinaca. Escurrir muy bien, apretando para quitar el exceso de agua. Picar finamente.",
+    "Picar la cebolla y el ajo. Rehogar en una sartén con un poco de aceite hasta que estén transparentes.",
+    "En un bol, mezclar la ricota, la espinaca picada, la cebolla y el ajo rehogados.",
+    "Agregar el queso parmesano rallado (para el relleno), nuez moscada, sal y pimienta. Mezclar hasta obtener un relleno homogéneo.",
+    "Colocar una porción del relleno en cada panqueque y enrollar firmemente para formar los canelones.",
+    "Cubrir el fondo de una fuente para horno con una capa fina de salsa bechamel.",
+    "Disponer los canelones en la fuente, uno al lado del otro.",
+    "Cubrir generosamente con el resto de la salsa bechamel.",
+    "Espolvorear con queso mozzarella o parmesano para gratinar y hornear a 180°C (350°F) por 20-25 minutos, o hasta que estén dorados y burbujeantes."
+  ]
+},
+  {
+  "id": 5,
+  "titulo": "Pastelitos Criollos Fritos",
+  "descripcion": "Masa tradicionalmente rellena con dulce de membrillo o batata.",
+  "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/92/Pastelitos_criollos_argentinos.jpg",
+  "tiempoPreparacion": "90 minutos",
+  "dificultad": "Media",
+  "porciones": 24,
+  "categoria": "Postres/Repostería",
+  "ingredientes": [
+    { "cantidad": "500", "unidad": "g", "nombre": "Harina de trigo 0000" },
+    { "cantidad": "250", "unidad": "ml", "nombre": "Agua tibia" },
+    { "cantidad": "1", "unidad": "cucharada", "nombre": "Sal" },
+    { "cantidad": "100", "unidad": "g", "nombre": "Grasa vacuna derretida (para la masa)" },
+    { "cantidad": "100", "unidad": "g", "nombre": "Mantequilla o grasa (para hojaldrado)" },
+    { "cantidad": "400", "unidad": "g", "nombre": "Dulce de membrillo o batata" },
+    { "cantidad": "1", "unidad": "litro", "nombre": "Aceite para freír" },
+    { "cantidad": "200", "unidad": "g", "nombre": "Azúcar (para el almíbar)" },
+    { "cantidad": "100", "unidad": "ml", "nombre": "Agua (para el almíbar)" }
+  ],
+  "pasos": [
+    "Mezclar la harina con la sal, el agua tibia y la grasa derretida (100g) para formar una masa blanda. Amasar y dejar reposar 30 minutos.",
+    "Estirar la masa fina y untarla con mantequilla/grasa blanda (la de hojaldrado). Doblar la masa en tres partes (como un tríptico).",
+    "Estirar nuevamente la masa doblada muy fina. Repetir el proceso de untar y doblar dos veces más, dejando reposar 15 minutos entre cada estirado.",
+    "Estirar la masa final hasta 2mm de grosor y cortar en cuadrados de 6x6 cm.",
+    "Cortar el dulce (membrillo o batata) en cubos pequeños y colocar un cubo en el centro de la mitad de los cuadrados de masa.",
+    "Cubrir con otro cuadrado de masa. Para formar el pastelito, pellizcar las esquinas alternas hacia arriba para que queden levantadas, dándole la forma de flor.",
+    "Calentar el aceite para freír. Freír los pastelitos en aceite a temperatura media-baja hasta que se abran las capas de hojaldre.",
+    "Una vez abiertos, subir la temperatura del aceite para dorarlos hasta que estén crujientes y dorados. Retirar y escurrir.",
+    "Preparar el almíbar hirviendo el azúcar con el agua hasta que espese ligeramente. También se puede usar solo azúcar espolvoreada.",
+    "Bañar los pastelitos fritos en el almíbar tibio o espolvorear con azúcar, y servir."
+  ]
+},
+  {
+  "id": 6,
+  "titulo": "Postre Chajá (Torta Chajá)",
+  "descripcion": "Clásico postre con dulce de leche, merengue seco, crema chantilly y durazno.",
+  "imagen": "https://cocinerosargentinos.com/content/recipes/original/recipes.13982.jpeg",
+  "tiempoPreparacion": "60 minutos (+ 3 horas de refrigeración)",
+  "dificultad": "Media",
+  "porciones": 8,
+  "categoria": "Postres",
+  "ingredientes": [
+    { "cantidad": "1", "unidad": "unidad", "nombre": "Bizcochuelo de vainilla (20-24 cm)" },
+    { "cantidad": "1", "unidad": "lata", "nombre": "Duraznos en almíbar (aprox. 800 g)" },
+    { "cantidad": "500", "unidad": "g", "nombre": "Dulce de leche repostero" },
+    { "cantidad": "250", "unidad": "g", "nombre": "Merengues secos (merenguitos)" },
+    { "cantidad": "500", "unidad": "ml", "nombre": "Crema de leche (nata para montar)" },
+    { "cantidad": "50", "unidad": "g", "nombre": "Azúcar impalpable (glas)" },
+    { "cantidad": "1", "unidad": "cucharadita", "nombre": "Esencia de vainilla" }
+  ],
+  "pasos": [
+    "Batir la crema de leche bien fría con el azúcar impalpable y la esencia de vainilla hasta que esté firme (Chantilly). Reservar.",
+    "Cortar el bizcochuelo horizontalmente en 3 capas iguales.",
+    "Colocar la primera capa de bizcochuelo en la base y humedecerla con un poco del almíbar de los duraznos.",
+    "Untar esta capa con dulce de leche repostero. Romper 1/3 de los merengues secos y distribuirlos encima.",
+    "Colocar la segunda capa de bizcochuelo, humedecer con almíbar y cubrir con una capa gruesa de crema chantilly (reservar para cubrir el postre).",
+    "Cortar la mayoría de los duraznos en cubos pequeños y distribuirlos sobre la crema. Agregar otro 1/3 de merengues rotos.",
+    "Colocar la tercera y última capa de bizcochuelo y humedecer con almíbar.",
+    "Cubrir completamente el postre (lados y superficie) con la crema chantilly restante.",
+    "Triturar el resto de los merengues y usarlos para cubrir los costados y la superficie del postre. Decorar con duraznos reservados.",
+    "Refrigerar por al menos 3 horas para que se asienten los sabores y servir bien frío."
+  ]
+}
+]
