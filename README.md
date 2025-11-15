@@ -280,6 +280,8 @@ Las contribuciones son bienvenidas. Para cambios principales:
 
 
 ---
+<img width="1600" height="870" alt="image" src="https://github.com/user-attachments/assets/8553cf6c-1a8d-47e2-bca4-1a3c43a8bdd1" />
+
 
 **Última actualización:** Noviembre 2025  
 **Versión:** 1.0.0
