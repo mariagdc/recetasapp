@@ -4,7 +4,7 @@
 ![React Router](https://img.shields.io/badge/React%20Router-7.8.2-orange)
 ![Material UI](https://img.shields.io/badge/Material--UI-7.3.2-purple)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![supabase](https://supabase.com/)
+![supabase](https://img.shields.supabase.com/-green)
 
 ## 📖 Descripción
 
