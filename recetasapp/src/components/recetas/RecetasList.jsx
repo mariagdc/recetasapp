@@ -18,7 +18,7 @@ function RecetasList({ recetas, darkMode }) {
       
       <Grid container spacing={3} alignItems="stretch" justifyContent="center">
         {recetas.map(receta => (
-          <Grid item xs={12} sm={6} md={4} key={receta.id}>
+          <Grid item size={{ xs: 12, sm: 6, md: 4 }} key={receta.id}>
             <RecetaCard receta={receta} darkMode={darkMode} />
           </Grid>
         ))}

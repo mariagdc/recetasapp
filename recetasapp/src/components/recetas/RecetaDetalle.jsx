@@ -18,9 +18,9 @@ function RecetaDetalle({ receta, darkMode }) {
       default: return 'default';
     }
   };
-  const [rating, setRating] = useState(receta.ratingPromedio || 0);
+  const [rating, setRating] = useState(receta.rating);
 
-  const handleRating = async (value) => {
+  /*const handleRating = async (value) => {
     setRating(value);
 
     await fetch(`http://localhost:3000/api/recetas/${receta.id}/rating`, {
@@ -28,7 +28,7 @@ function RecetaDetalle({ receta, darkMode }) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ rating: value })
     });
-  };
+  };*/
   return (
     <>
       <Button
@@ -65,7 +65,8 @@ function RecetaDetalle({ receta, darkMode }) {
           value={rating}
           precision={0.5}
           size="large"
-          onChange={(e, newValue) => handleRating(newValue)}
+          readOnly
+         // onChange={(e, newValue) => handleRating(newValue)}
           sx={{ mb: 2 }}
         />
         <Typography
