@@ -158,7 +158,15 @@ Cada receta contiene:
 ```
 
 ## 🔌 API y Context
+## 💾 Base de Datos
 
+Este proyecto utiliza Supabase como plataforma Backend-as-a-Service (BaaS). Supabase proporciona una base de datos PostgreSQL escalable y robusta.
+
+La principal ventaja que ofrece a esta aplicación es la API REST auto-generada directamente a partir de la estructura de la base de datos. Esto nos permite interactuar con los datos (como las recetas) de forma sencilla y eficiente, sin necesidad de construir una capa API intermedia.
+
+    Tecnología Base: PostgreSQL (base de datos relacional de código abierto de confianza).
+
+    Interacción: Se utiliza el SDK de Supabase (e internamente el useRecetas Hook) para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en las tablas de la base de datos.
 ### useRecetas Hook
 ```jsx
 const { recetas, isLoading, getRecetaById } = useRecetas();
